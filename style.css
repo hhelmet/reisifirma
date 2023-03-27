@@ -402,7 +402,7 @@ table td {
   }
   
   .newsletter button {
-    background-color: #ff6600;
+    background-color: #fde02f;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -413,7 +413,7 @@ table td {
   }
   
   .newsletter button:hover {
-    background-color: #ffc342;
+    background-color: #fde02f;
   }
   
   .social {
