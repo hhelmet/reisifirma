@@ -19,7 +19,7 @@
         </ul>
     </section>
 
-   <!--===============Banner================-->
+       <!--===============Banner================-->
     <section class="banner2">
         <div class="banner-text-item">
             <div class="banner-heading">
@@ -38,7 +38,29 @@
                       <input type="text" id="reisijatearv" name="reisijatearv" pattern="[0-9]+" required>
                     </div>
                   </div>
-                <input type="date" class="date">
+                  <label for="fromDate">Alguskuupäev</label>
+                  <input type="date" id="fromDate" name="Algus">
+                  
+                  <label for="untilDate">Lõppkuupäev</label>
+                  <input type="date" id="untilDate" name="Lõpp">
+                  
+                  <style>
+                    label {
+                      display: inline-block;
+                      width: 80px;
+                      text-align: right;
+                      margin-right: 10px;
+                    }
+                    input[type="date"] {
+                      display: inline-block;
+                      width: 150px;
+                      padding: 5px;
+                      font-size: 16px;
+                      border-radius: 4px;
+                      border: 1px solid #ccc;
+                    }
+                  </style>
+                  
                 <a href="#" class="book">Broneeri</a>
                 </div>
             </form>
