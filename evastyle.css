@@ -1,0 +1,38 @@
+.sihtkohad{
+  padding: 15px calc(10px + 4.8625vw);
+}
+.sihtkohad-kreeka, .sihtkohad-türgi, .sihtkohad-hispaania{
+  margin-bottom: 50px;
+}
+.sihtkohad-pealkiri{
+  font-family: Barlow Condensed;
+  font-size: calc(8px + 2.4625vw);
+  margin-bottom: 30px;
+}
+h2{
+  font-size: calc(20px + 2.5625vw);
+  font-weight: normal;
+  color: black;
+  font-family: Satisfy;
+}
+.kreeka-kirjeldus, .türgi-kirjeldus, .hispaania-kirjeldus{
+  display: flex;
+  justify-content: space-between;
+  gap:30px;
+
+}
+.kreeka-kirjeldus img, .türgi-kirjeldus img, .hispaania-kirjeldus img{
+  width: 45%;
+}
+.kreeka-p, .türgi-p, .hispaania-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kreeka-kirjeldus p, .türgi-kirjeldus p, .hispaania-kirjeldus p{
+  font-family:  Barlow Condensed;
+  font-size: calc(8px + 1.4625vw);
+}
+.türgi-vasak h2{
+  margin-top:-10px;
+}
