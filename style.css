@@ -361,6 +361,19 @@ table td {
     padding: 20px;
     font-family: Arial, sans-serif;
   }
+
+  .third-footer {
+    background-color: #4E65E5;
+    color: #fff;
+    background-image: url('https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2018/01/clouds-19.jpg?itok=ipMqaoRU');
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
   
   .contact,
   .newsletter,
