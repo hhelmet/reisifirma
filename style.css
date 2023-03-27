@@ -306,6 +306,11 @@ ul.menu {
   }
   
  /*=============================pakkumised===============================*/ 
+
+.pealt{
+  width: 100%;
+  height: 10cm;
+}
 .kesk {
   padding: 50px 50px 50px 50px;
 }
