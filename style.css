@@ -305,6 +305,37 @@ ul.menu {
     font-size: 20px;
   }
   
+ /*=============================pakkumised===============================*/ 
+.kesk {
+  padding: 50px 50px 50px 50px;
+}
+.pakett{
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.pakett h2{
+  font-family: Barlow Condensed;
+  font-size: 50px;
+  color: #191d34;
+  letter-spacing: 1px;
+}
+table {
+  width: 100%;
+  font-family: Barlow Condensed;
+  font-size: 30px;
+  color: #191d34;
+}
+table th {
+  background-color: rgb(221, 219, 219);
+  font-weight: 100;
+}
+table td {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
 
 
  /*=============================footer===============================*/
