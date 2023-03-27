@@ -1,3 +1,4 @@
+
 .sihtkohad{
   padding: 15px calc(10px + 4.8625vw);
 }
@@ -33,6 +34,108 @@ h2{
   font-family:  Barlow Condensed;
   font-size: calc(8px + 1.4625vw);
 }
-.türgi-vasak h2{
-  margin-top:-10px;
+
+
+.türgi{
+  width:100%;
 }
+.türgi-pakett-mõlemad{
+  margin-bottom:20px;
+}
+.türgi-pakett-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  margin-bottom: 20px;
+
+}
+.türgi-pakett-tekst{
+  display:flex;
+  flex:1;
+
+}
+.türgi-pakett-pilt{
+  display: flex;
+  flex:1;
+ 
+}
+
+.türgi-pakett-tekst p{
+  font-family:  Barlow Condensed;
+  font-size: calc(8px + 1.4625vw);
+}
+
+.osta-reisi-form{
+  display:flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+}
+.osta-reisi-form form{
+  width:0;
+}
+.paketi-ostmine{
+  display: flex;
+  gap:30px;
+  
+}
+.paketi-ostmine-vasak h2{
+  color: #0044CC;
+}
+
+.paketi-ostmine-parem{
+  flex:1;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+.paketi-ostmine-vasak{
+  display: flex;
+  flex:1;
+  justify-content: flex-start;
+  
+}
+.osta-reis-nupp{
+  display: flex;
+  flex:1;
+  height: 60px;
+  align-items: center;
+}
+.osta-reis-nupp button {
+  height: 100%;
+  width: 100%;
+  padding: 7px 7px;
+  border: none;
+  background-color: #89aed4;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#inimesi{
+  height:50px;
+  width: 3em;
+  font-size: medium;
+  text-align: center;
+  padding:1px;
+ 
+}
+.osta-reis-nupp button:hover {
+  background-color: #0044CC;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.türgi-pakett-pilt img{
+  width:100%;
+}
+.türgi-paketi-kirjeldus p{
+  font-family:  Barlow Condensed;
+  font-size: calc(8px + 1.4625vw);
+}
+
